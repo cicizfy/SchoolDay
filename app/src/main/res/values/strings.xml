@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">SchoolDay</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve">AIzaSyBULupBCcY-leJ7uQoadIoFyiTy0LRansA</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_new_class_sche">NewClassScheActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="ShortCuts">ClassSchedule</string>
+
+    <string name="Course">Course</string>
+    <string name="StartTime">StartTime</string>
+    <string name="EndTime">EndTime</string>
+    <string name="weekDay">WeekDay</string>
+    <string name="ClassLocation">ClassLocation</string>
+    <string name="ButtonSubmit">Submit</string>
+    <string name="TimeRequiredInput">Please Enter any time between 0:00-24:00</string>
+    <string name="mon">Mon</string>
+    <string name="tue">Tue</string>
+    <string name="wed">Wed</string>
+    <string name="thu">Thu</string>
+    <string name="fri">Fri</string>
+
+    <string name="SharedImage">note_SharedImage</string>
+    <string name="SharedTitile">note_SharedTitle</string>
+    <string name="SharedDate">note_SharedDate</string>
+    <string name="SharedIntroduction">note_SharedIntroduction</string>
+    <string name="SharedTransition">note_SharedItem</string>
+    <string name="SharedTransition1">note_SharedItem1</string>
+    <string name="SharedTransition2">note_SharedItem2</string>
+</resources>

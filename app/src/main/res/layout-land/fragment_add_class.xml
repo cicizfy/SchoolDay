@@ -1,0 +1,126 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bag_snap"
+android:padding="16dp"
+    tools:context="com.example.fangyuanzheng.schoolday.AddClassFrgament">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+
+
+        app:srcCompat="@drawable/web_hi_res_512" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Course"
+        android:textSize="18sp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="30dp"
+        />
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="225dp"
+        android:id="@+id/Course_EditText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/StartTime"
+        android:textSize="18sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="135dp"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="115dp"
+        android:layout_marginLeft="190dp"
+        android:textSize="10sp"
+        android:hint="@string/TimeRequiredInput"
+        android:focusable="false"
+        android:textColorHint="@color/textcolor2"
+        android:ems="10"
+        android:inputType="time"
+        android:id="@+id/StartTime_EditText"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/EndTime"
+        android:textSize="18sp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="185dp"
+        />
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_marginTop="165dp"
+        android:layout_marginLeft="190dp"
+        android:focusable="false"
+        android:hint="@string/TimeRequiredInput"
+        android:textColorHint="@color/textcolor2"
+        android:textSize="10sp"
+        android:ems="10"
+        android:inputType="time"
+        android:id="@+id/EndTime_EditText"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ClassLocation"
+        android:textSize="18sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="225dp"
+        />
+
+    <EditText
+        android:id="@+id/classLocation_EditText"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="210dp"
+        android:ems="10"
+        android:inputType="text"
+        android:gravity="center"
+        android:textColorHint="@color/textcolor2"
+        android:textSize="15sp" />
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp">
+    <Button
+        android:layout_marginTop="270dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="220dp"
+        android:layout_height="25dp"
+        android:background="@drawable/com_facebook_button_login_silver_background"
+        style="@style/RemoteButtonImproved"
+        android:id="@+id/SubmitButton"
+        android:text="@string/ButtonSubmit"/></android.support.design.widget.CoordinatorLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="60dp"
+    android:layout_marginBottom="70dp"
+    android:layout_gravity="top|center_horizontal"
+    android:padding="1dp">
+    <include
+        layout="@layout/radiogroup_pickweekday"></include>
+
+</LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_marginTop="10dp"
+    android:padding="8dp">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:translationZ="8dp"
+        card_view:cardElevation="3sp"
+        card_view:cardUseCompatPadding="true"
+        card_view:cardBackgroundColor="@color/notecv_bg"
+        android:id="@+id/CardView"
+        ><LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:padding="5dp"
+
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:padding="3dp"
+
+            android:layout_marginLeft="235dp">
+            <TextView
+                android:transitionName="@string/SharedTransition1"
+                android:layout_width="wrap_content"
+                android:layout_height="18dp"
+                android:text="date0000/00/00"
+                android:id="@+id/Note_SharedDate"
+                android:layout_gravity="bottom"
+                android:textSize="15sp"
+                android:textColor="@color/textcolor3"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/web_hi_res_512"
+                android:id="@+id/Note_SharedImage"
+                android:scaleType="centerCrop"
+                android:transitionName="@string/SharedTransition"/>
+            <TextView
+                android:transitionName="@string/SharedTransition2"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/Note_SharedTitle"
+                android:textColor="@color/textcolor2"
+                android:text="Title"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Note_SharedIntroduction"
+            android:textColor="@color/textcolor5"
+            android:textSize="18dp"
+            />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitStart"
+                android:id="@+id/Note_SharedContentImage"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.fangyuanzheng.schoolday.HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="312dp"
+        android:layout_height="149dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/mytime" />
+
+    <TextView
+        android:id="@+id/TimetextView"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="190dp"
+        android:layout_height="75dp"
+        android:text="10:00"
+        android:textSize="26sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+    <TextView
+        android:id="@+id/DateTextView"
+        android:layout_marginTop="167dp"
+        android:layout_marginLeft="130dp"
+        android:layout_width="190dp"
+        android:layout_height="73dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="MonDay"/>
+    <ImageView
+        android:layout_width="312dp"
+        android:layout_height="300dp"
+        android:scaleType="fitStart"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="240dp"
+        android:src ="@drawable/temperature"/>
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/weatherIconImageView"
+        android:scaleType="fitCenter"
+        android:src="@drawable/na"
+        android:layout_marginTop="448dp"
+        android:layout_marginLeft="40dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/temperatureTextView"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="140dp"
+        android:textSize="28sp"
+        android:text="0"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/conditionTextView"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="140dp"
+        android:text="Condition"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:id="@+id/locationTextView"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="220dp"
+        android:textSize="12sp"
+
+        android:text="Location"/>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="25dp"
+        android:id="@+id/yahooIconImageView"
+        android:scaleType="fitCenter"
+        android:src="@drawable/yahoo_logo"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="273dp"/>
+</FrameLayout>

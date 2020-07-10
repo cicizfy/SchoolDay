@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "358343225805",
+    "firebase_url": "https://schoolday-7f230.firebaseio.com",
+    "project_id": "schoolday-7f230",
+    "storage_bucket": "schoolday-7f230.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358343225805:android:18c096b2ce0d80c3",
+        "android_client_info": {
+          "package_name": "com.example.fangyuanzheng.schoolday"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358343225805-j280g7u482js0n7eg6md8q3i745ae7h1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fangyuanzheng.schoolday",
+            "certificate_hash": "e7e6c66a612bee87c3cefce309341ae250e71bbe"
+          }
+        },
+        {
+          "client_id": "358343225805-cr44bngngqh392cpedlt864h63c4ipe7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEmLcN_8v0_1yc6HhPJnbvrb1o5eBPiOE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358343225805-cr44bngngqh392cpedlt864h63c4ipe7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

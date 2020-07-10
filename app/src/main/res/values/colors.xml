@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f5ff492d</color>
+    <color name="colorPrimaryDark">#f9d12b15</color>
+    <color name="colorAccent">#a5be27</color>
+
+    <color name="appbar1">#FF5252</color>
+
+    <color name="orange">#FF6E40</color>
+
+    <color name="backgroundSplash1">#c6fbefeb</color>
+    <color name="background2">#FFFDE7</color>
+    <color name="notecv_bg">#fbfdfff4</color>
+    <color name="green">#7CB342</color>
+    <color name="darkGreen">#d95a6a4a</color>
+
+    <color name="textcolor">#616161</color>
+    <color name="textcolor2">#ed5f4b47</color>
+    <color name="textcolor3">#fea4917d</color>
+    <color name="textcolor4">#422c27</color>
+    <color name="textcolor5">#d0696042</color>
+
+    <color name="note_cv">#78f3f6cb</color>
+    <color name="cv_bg1">#e2fffce6</color>
+    <color name="cv_bg2">#d7ffc132</color>
+    <color name="cv_bg3">#f8c5b293</color>
+    <color name="cv_bg4">#ecc3e156</color>
+    <array name="array_CardView_BG">
+        <item>@color/cv_bg1</item>
+        <item>@color/cv_bg2</item>
+        <item>@color/cv_bg3</item>
+        <item>@color/cv_bg4</item>
+    </array>
+
+    <color name="tab_highlight">#c5b25a</color>
+    <color name="transparent">#fefbd7</color>
+    <color name="example">#999000</color>
+</resources>

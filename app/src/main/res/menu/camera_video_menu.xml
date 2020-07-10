@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/cam_icon"
+        android:id="@+id/action_pic"
+        android:title="Picture"
+        app:showAsAction="always"
+        app:itemIconTint="@color/colorAccent" />
+
+
+</menu>

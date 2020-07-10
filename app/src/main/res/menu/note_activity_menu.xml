@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/add_icon"
+        android:id="@+id/action_AddClass"
+        android:title="Add Class"
+        app:showAsAction="collapseActionView"
+        app:itemIconTint="@color/colorAccent" />
+</menu>
